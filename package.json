@@ -1,0 +1,25 @@
+{
+  "name": "infrafirst",
+  "version": "1.0.0",
+  "description": "Task #6 at SHRI 2016, Yandex",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4esnog/infrafirst.git"
+  },
+  "author": "Nikita Chesnokov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/4esnog/infrafirst/issues"
+  },
+  "homepage": "https://github.com/4esnog/infrafirst#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2"
+  }
+}
