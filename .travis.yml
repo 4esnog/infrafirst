@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "6"
+  - "node"
+deploy:
+  provider: heroku
+  app: infrafirst
+  api_key:
+    secure: 179dee11-b383-4387-a88f-b38d4cbee109
