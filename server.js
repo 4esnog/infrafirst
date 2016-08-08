@@ -8,7 +8,7 @@ app.set('port', process.env.PORT || 3000);
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
-qwe
+
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {

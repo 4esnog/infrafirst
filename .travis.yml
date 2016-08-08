@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "6"
-  - "node"
+- '6'
+- node
 deploy:
   provider: heroku
   app: infrafirst
   api_key:
-    secure: 179dee11-b383-4387-a88f-b38d4cbee109
+    secure: I7YA4PAAN0yctzngGw63aTIEVazTooKIoejLf6xKr1PffGWFxVc/P/LPbuaizIm4mAr/VoTl4wNLhxxMg2U1ian2AgXotRAJCRChJMlk0CwGW6sThtROwZ1sysr6PUi+gBiTUYerqhEoZ0fUcOIm84WWgFGkn+6g1W8tVnH+37SqCwkqHqonKRIsyAXkbgwciRW8+LbReg1HyG/Hi6vrK2mOjR1dzRC/OvyGMrADEWIyXDlrhDzKDU7X0UEMqPqEK6l3J8nS5YLdnXstk1cTBxt+gsj32OUGZPAevRwyClhNPgK1FfuOJ3MH0uBD+MzTm77ONrSrODHefx2BvlRtdUlndFCghVB97ii8yiI4cNtWPPn2gj7VUemr8xmm0/bnsPEJC1KnBabiGRTe1nappGJKp5XKtViiPwuy2JIcK/fEaDIFJ1Q80xsy6zJVrXH9G7bu5INdZE1UUd8/eOXrGEeSFKCSy9u2FutWJ8J8L4zi4sVcewtx8/+7Y9oNmT7HtXEC9x+F6vOZ/yEApBhS4IBQEtc5Guz2a/PPKVxfeE8voH+U47znGufLsdhMv+0YfYK3GHjs7/+ReCCbyz/K2EgxhnKQJ1FjkRETwtTcEve+0+J3QTmgSg/zaxWY+O+lcAlCl58T1U8P6MkRUaL8/+uP9Yfs9BdgPg2GkSjsKDE=
