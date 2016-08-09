@@ -2,6 +2,12 @@ language: node_js
 node_js:
 - '6'
 - node
+notifications:
+  email:
+    recipients:
+      - 4esnog96@gmail.com
+    on_success: always
+    on_failure: always
 deploy:
   provider: heroku
   app: infrafirst
