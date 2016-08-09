@@ -1,5 +1,5 @@
 const assert = require('assert');
-const myFunc = require('../src/myFunc');
+const myFunc = require('../src/myFunc.js');
 
 describe('Server', function() {
     describe('faces()', function() {
