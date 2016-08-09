@@ -37,7 +37,7 @@ console.timeEnd('render');
 При появлении в репозитории на GitHub коммитов и pull request, начинается сборка коммита/PR на Travis-CI. Трэвис запускает команды "npm run lint" (запускает линтер ESLint) и "npm run test" (unit-тесты Mocha). По окончании сборки на почту приходит уведомление о её результате. Если обновление произошло в ветке master, после успешной сборки в Travis, изменения разворачиваются на хостинг (Heroku).
 
 ### Проверки CI и BitHound для Pull request
-![Pull Request checks]()
+![Pull Request checks](https://raw.githubusercontent.com/4esnog/infrafirst/master/screenshots/pr-checks.png)
 
 ### Travis-CI
 
@@ -66,7 +66,7 @@ console.timeEnd('render');
 
 ### Uptime Robot
 
-![Uptime Robot]()
+![Uptime Robot](https://raw.githubusercontent.com/4esnog/infrafirst/master/screenshots/uptimerobot.png)
 
 Позволяет установить одновременно несколько мониторов, проверяющих состояние разных характеристик приложения:
 
