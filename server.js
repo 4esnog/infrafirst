@@ -13,26 +13,34 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function (req, res) {
-    console.time('render');
+    console.time('Render /');
 
     res.render('index', {
         face: getFace(),
         color: generateColor().join(', ')
     });
 
-    console.timeEnd('render');
+    console.timeEnd('Render /');
 });
 
 app.get('/color', function (req, res) {
-    console.time('get new color');
-    res.send(generateColor().join(', '));
-    console.timeEnd('get new color');
+    console.time('Render /color');
+
+    let color = generateColor().join(', ');
+    res.send(color);
+
+    console.log('New color: ' + color);
+    console.timeEnd('Render /color');
 });
 
 app.get('/face', function (req, res) {
-    console.time('get new face');
-    res.send(getFace());
-    console.timeEnd('get new face');
+    console.time('Render /face');
+
+    let face = getFace();
+    res.send(face);
+
+    console.log('New face: ' + face);
+    console.timeEnd('Render /face');
 });
 
 app.listen(app.get('port'), function () {
