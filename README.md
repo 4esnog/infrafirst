@@ -19,7 +19,7 @@ npm test     # Mocha тесты
 
 ## Запуск
 ```bash
-npm run
+npm start
 ```
 
 ## Описание работы
