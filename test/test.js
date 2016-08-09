@@ -1,10 +1,8 @@
 const assert = require('assert');
 const myFunc = require('../src/myFunc.js');
 
-describe('Server', function() {
-    describe('faces()', function() {
-        it('should return string when called', function() {
-            assert.equal('Test', myFunc());
-        });
+describe('myFunc()', function() {
+    it('should return 'Test' when called', function() {
+        assert.equal('Test', myFunc());
     });
 });
