@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page {
+    color: #fefefe;
+    background: #6bd425;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    font-size: 10vw;
+    transition: background-color 0.3s ease-in-out;
+}
