@@ -1,3 +1,5 @@
+'use strict';
+
 const helpers = {
     getRandomHex () {
         const min = 0;
