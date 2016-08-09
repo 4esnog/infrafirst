@@ -4,8 +4,12 @@
         <title>Крутой ASCII-арт</title>
         <meta charset="utf8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
     </head>
-    <body class="page">
-        <%= face %>
+    <body class="page" id="page" style="background-color: rgb(<%= color %>);">
+        <div id="face">
+            <%= face %>
+        </div>
     </body>
 </html>
